@@ -1,0 +1,16 @@
+{
+  "client_name": "Hermes Agent (Anoop)",
+  "client_uri": "https://hermes-agent.nousresearch.com",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "checkins:read checkins:write events:read events:write friends:read lists:read lists:write location:read mcp:connect offline_access profile:read stats:read tips:read tips:write venues:read venues:write"
+}
